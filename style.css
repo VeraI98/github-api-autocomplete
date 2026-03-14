@@ -1,0 +1,43 @@
+body{
+    background:#ccc;
+    font-family:Arial;
+}
+
+.container{
+    width:500px;
+    margin:40px auto;
+}
+
+#searchInput{
+    width:100%;
+    padding:10px;
+    font-size:16px;
+}
+
+.autocomplete-item{
+    background:white;
+    padding:10px;
+    border:1px solid black;
+    cursor:pointer;
+}
+
+.autocomplete-item:hover{
+    background:#e6e6e6;
+}
+
+.repo{
+    background:#c46ac4;
+    padding:15px;
+    border:1px solid black;
+    margin-top:10px;
+    position:relative;
+}
+
+.delete-btn{
+    position:absolute;
+    right:10px;
+    top:10px;
+    cursor:pointer;
+    font-size:20px;
+    color:red;
+}
